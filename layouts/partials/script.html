@@ -1,0 +1,3 @@
+{{- if .Site.Params.umami.enable }}
+  {{ .Site.Params.umami.code | safeHTML }}
+{{- end -}}
